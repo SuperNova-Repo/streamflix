@@ -53,7 +53,7 @@ import javax.net.ssl.X509TrustManager
 object SerienStreamProvider : Provider {
 
     private val URL = Base64.decode(
-        "aHR0cHM6Ly9z", Base64.NO_WRAP
+        "aHR0cHM6Ly9zZXJpZW5zdHJlYW0=", Base64.NO_WRAP
     ).toString(Charsets.UTF_8) + Base64.decode(
         "LnRvLw==", Base64.NO_WRAP
     ).toString(Charsets.UTF_8)
@@ -677,7 +677,7 @@ object SerienStreamProvider : Provider {
     fun normalizeImageUrl(url: String?): String? {
         if (url.isNullOrBlank()) return null
         return if (url.startsWith("http")) url
-        else "https://s.to$url"
+        else "https://serienstream.to$url"
     }
 
 
