@@ -10,11 +10,6 @@
   <a href="https://github.com/SuperNova-Repo/streamflix/releases/latest">
     <strong>Download fork app »</strong>
   </a>
-  <br />
-  <br />
-  <a href="https://github.com/streamflix-reborn/streamflix/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/streamflix-reborn/streamflix/issues">Request Feature</a>
 </p>
 
 <details>
